@@ -8,8 +8,8 @@ shinyUI(pageWithSidebar(
     headerPanel("Which iris is it?"),
     
     sidebarPanel(
-        helpText("This shiny app predicts what kind of iris you have",
-                 "based on four variables. It uses Principle Components Analysis",
+        helpText("This shiny app predicts what kind of iris you have,",
+                 "based on four variables. It uses Principal Components Analysis",
                  "on the iris dataset from R to determine two Principle Components",
                  "from these four variables. The caret package handles the machine",
                  "learning using a random forest."),
